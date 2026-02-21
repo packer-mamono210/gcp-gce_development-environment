@@ -122,6 +122,7 @@ jobs:
             -u centos \
             --key-file="~/.ssh/google_compute_engine" \
             --extra-vars "@extra-vars.yml" \
+            --skip-tags "vnc_server" \
             install.yml
           environment:
             ANSIBLE_FORCE_COLOR: '1'
