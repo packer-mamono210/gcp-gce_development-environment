@@ -1,0 +1,13 @@
+---
+vimrc_dir: /home/tomonori
+vimrc_group: tomonori
+vimrc_owner: tomonori
+vimrc_mode: '0755'
+vnc_depth: '24'
+vnc_display: ':1'
+vnc_geometry: '1920x1080'
+vnc_password: vncpassword
+vnc_user: tomonori
+users:
+  - name: tomonori
+    groups: docker
